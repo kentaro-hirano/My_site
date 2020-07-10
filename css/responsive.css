@@ -1,0 +1,112 @@
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+        height: 50px;
+    }
+    .header-container {
+        width: 90%;
+        height: 50px;
+    }
+    .header-logo img {
+        height: 50px;
+    }
+    nav li {
+        display: none;
+    }
+    .humberger {
+        display: block;
+        width: 38px;
+        height: 38px;
+        border: 1px solid #fff;
+        background-color: #EC715F;
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+    .line {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background-color: #fafafa;
+        margin: 5px auto;
+    }
+    .main-visual {
+        background-image: url("../img/code.png");
+    }
+    .visual-text1 {
+        font-size: 40px;
+    }
+    .visual-text2 {
+        font-size: 18px;
+    }
+    .port-container {
+        width: 90%;
+    }
+    .none {
+        display: none;
+    }
+    .port-img img {
+        width: 100%;
+    }
+    .feature-container {
+        width: 90%;
+    }
+    .feature-contents {
+        display: block;
+    }
+    .feature-content {
+        margin: 0 16px 10px 16px;
+    }
+    .feature-content:nth-child(2) {
+        margin: 0 16px 10px 16px;
+    }
+    .profile-container {
+        width: 90%;
+    }
+    .profile-contents {
+        width: 100%;
+        display: block;
+    }
+    .profile-contents img {
+        margin: 0 auto;
+        display: block;
+    }
+    .profile-detail p {
+        margin: 0;
+        text-align: center;
+    }
+    .profile-detail h3 {
+        text-align: center;
+        margin: 20px 5px 0;
+    }
+    .contact-container {
+        width: 90%;
+    }
+    .contact-contents {
+        display: block;
+    }
+    .contents-parent {
+        width: 100%;
+    }
+    .contact-mail h3,
+    .contact-tel h3,
+    .contents-right h3 {
+        text-align: center;
+    }
+    .contact-tel {
+        margin-bottom: 20px;
+    }
+    .icon {
+        text-align: center;
+    }
+    .fab {
+        margin-left: 8px;
+        margin-right: 0;
+    }
+    .contents-left {
+        width: 100%;
+        text-align: center;
+    }
+    .contents-right {
+        width: 100%;
+    }
+}
